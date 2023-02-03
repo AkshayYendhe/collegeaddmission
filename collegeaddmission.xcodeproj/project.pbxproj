@@ -13,6 +13,9 @@
 		EF1ECAF129596C14004CCA9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1ECAEF29596C14004CCA9F /* Main.storyboard */; };
 		EF1ECAF329596C16004CCA9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF1ECAF229596C16004CCA9F /* Assets.xcassets */; };
 		EF1ECAF629596C16004CCA9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1ECAF429596C16004CCA9F /* LaunchScreen.storyboard */; };
+		EF1ECAFE29596C69004CCA9F /* CollegeAddmissionP.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1ECAFD29596C69004CCA9F /* CollegeAddmissionP.swift */; };
+		EF1ECB0029596C8C004CCA9F /* OutPutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1ECAFF29596C8C004CCA9F /* OutPutViewController.swift */; };
+		EFF7A1C82959AD4800CF7613 /* CollegeAddmissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF7A1C72959AD4800CF7613 /* CollegeAddmissionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		EF1ECAF229596C16004CCA9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF1ECAF529596C16004CCA9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF1ECAF729596C16004CCA9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF1ECAFD29596C69004CCA9F /* CollegeAddmissionP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeAddmissionP.swift; sourceTree = "<group>"; };
+		EF1ECAFF29596C8C004CCA9F /* OutPutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutPutViewController.swift; sourceTree = "<group>"; };
+		EFF7A1C72959AD4800CF7613 /* CollegeAddmissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeAddmissionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				EF1ECAE929596C14004CCA9F /* AppDelegate.swift */,
 				EF1ECAEB29596C14004CCA9F /* SceneDelegate.swift */,
 				EF1ECAED29596C14004CCA9F /* ViewController.swift */,
+				EFF7A1C72959AD4800CF7613 /* CollegeAddmissionViewController.swift */,
+				EF1ECAFF29596C8C004CCA9F /* OutPutViewController.swift */,
+				EF1ECAFD29596C69004CCA9F /* CollegeAddmissionP.swift */,
 				EF1ECAEF29596C14004CCA9F /* Main.storyboard */,
 				EF1ECAF229596C16004CCA9F /* Assets.xcassets */,
 				EF1ECAF429596C16004CCA9F /* LaunchScreen.storyboard */,
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF1ECB0029596C8C004CCA9F /* OutPutViewController.swift in Sources */,
 				EF1ECAEE29596C14004CCA9F /* ViewController.swift in Sources */,
+				EF1ECAFE29596C69004CCA9F /* CollegeAddmissionP.swift in Sources */,
 				EF1ECAEA29596C14004CCA9F /* AppDelegate.swift in Sources */,
 				EF1ECAEC29596C14004CCA9F /* SceneDelegate.swift in Sources */,
+				EFF7A1C82959AD4800CF7613 /* CollegeAddmissionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
